@@ -140,7 +140,7 @@
         </resources>
         <pluginManagement>
             <plugins>
-                <plugin>
+              <!--<plugin>
                     <groupId>org.fusesource.mvnplugins</groupId>
                     <artifactId>maven-notices-plugin</artifactId>
                     <configuration>
@@ -151,14 +151,13 @@
                         <listDependencies>true</listDependencies>
                         <licensesConfigFile>${project.basedir}/src/license/licenses.xml</licensesConfigFile>
                         <generateLicensesXml>true</generateLicensesXml>
-                        <!--  exclude newer saxon from notice gen due to maven shade plugin being unable to process META-INF/SAXONICA.RSA/SF -->
                         <excludeDependencies>org.apache.servicemix.bundles:org.apache.servicemix.bundles.saxon,org.apache.servicemix.bundles:org.apache.servicemix.bundles.isorelax</excludeDependencies>
                         <extraDependencies>xerces:xercesImpl:${xerces.version},xalan:xalan:${xalan.version},xalan:serializer:${xalan.version},org.apache.servicemix.specs:org.apache.servicemix.specs.activator:${servicemix-specs-version},org.apache.servicemix.specs:org.apache.servicemix.specs.jaxp-api-1.4:${servicemix-specs-version},org.apache.servicemix.specs:org.apache.servicemix.specs.jaxws-api-2.2:${servicemix-specs-version},org.apache.servicemix.bundles:org.apache.servicemix.bundles.saxon:${saxon.bundle.version}</extraDependencies>
                         <noticeSupplements>shared/notice-supplements.xml</noticeSupplements>
                         <repositories>${project.basedir}/target/features-repo,${project.basedir}/target/dependencies/unix/fabric8-karaf-${fabric.version}/system</repositories>
                         <defaultParent>org.jboss.fuse:esb-project:${project.version}:../..</defaultParent>
                     </configuration>
-                </plugin>
+                  </plugin>-->
             </plugins>
         </pluginManagement>
         <plugins>

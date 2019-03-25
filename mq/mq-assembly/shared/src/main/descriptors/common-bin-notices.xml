@@ -93,7 +93,7 @@
     </fileSets>
 
     <files>
-        <file>
+      <!--<file>
             <source>${basedir}/target/META-INF/NOTICE</source>
             <outputDirectory>/</outputDirectory>
             <destName>mq_notices.txt</destName>
@@ -106,7 +106,7 @@
             <destName>mq_dependencies.txt</destName>
             <fileMode>0644</fileMode>
             <lineEnding>unix</lineEnding>
-        </file>
+          </file>-->
         <file>
             <source>${basedir}/target/dependencies/unix/apache-activemq-${activemq-version}-bin.zip</source>
             <outputDirectory>extras</outputDirectory>

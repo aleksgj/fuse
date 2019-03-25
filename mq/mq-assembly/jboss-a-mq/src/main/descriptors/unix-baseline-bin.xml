@@ -89,7 +89,7 @@
                 <exclude>fabric_dependencies.txt</exclude>
                 <exclude>readme.txt</exclude>
                 <exclude>LICENSE</exclude>
-                <exclude>NOTICE</exclude>
+                <!--                <exclude>NOTICE</exclude>-->
                 <exclude>README</exclude>
                 <exclude>RELEASE-NOTES</exclude>
                 <exclude>karaf-manual*</exclude>

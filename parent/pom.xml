@@ -161,11 +161,11 @@
                         </lifecycleMappingMetadata>
                     </configuration>
                 </plugin>
-                <plugin>
+                <!--<plugin>
                     <groupId>org.fusesource.mvnplugins</groupId>
                     <artifactId>maven-notices-plugin</artifactId>
                     <version>${maven-notices-plugin-version}</version>
-                </plugin>
+                  </plugin>-->
                 <plugin>
                     <groupId>org.scala-tools</groupId>
                     <artifactId>maven-scala-plugin</artifactId>

@@ -89,7 +89,7 @@
                 <exclude>fabric_dependencies.txt</exclude>
                 <exclude>readme.txt</exclude>
                 <exclude>LICENSE</exclude>
-                <exclude>NOTICE</exclude>
+                <!--                <exclude>NOTICE</exclude>-->
                 <exclude>README</exclude>
                 <exclude>RELEASE-NOTES</exclude>
                 <exclude>karaf-manual*</exclude>
@@ -210,20 +210,20 @@
             <fileMode>0755</fileMode>
             <lineEnding>dos</lineEnding>
         </file>
-        <file>
+        <!--        <file>
             <source>${basedir}/target/META-INF/NOTICE</source>
             <outputDirectory>/</outputDirectory>
             <destName>mq_notices.txt</destName>
             <fileMode>0644</fileMode>
             <lineEnding>unix</lineEnding>
-        </file>
-        <file>
+          </file>-->
+<!--        <file>
             <source>${basedir}/target/target/maven-shared-archive-resources/META-INF/DEPENDENCIES</source>
             <outputDirectory>/</outputDirectory>
             <destName>mq_dependencies.txt</destName>
             <fileMode>0644</fileMode>
             <lineEnding>unix</lineEnding>
-        </file>
+          </file>-->
 
     </files>
 

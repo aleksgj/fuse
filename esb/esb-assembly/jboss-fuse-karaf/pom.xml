@@ -422,7 +422,7 @@
             <id>all</id>
             <build>
                 <plugins>
-                    <plugin>
+                  <!--<plugin>
                         <groupId>org.fusesource.mvnplugins</groupId>
                         <artifactId>maven-notices-plugin</artifactId>
                         <executions>
@@ -434,7 +434,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>xml-maven-plugin</artifactId>
